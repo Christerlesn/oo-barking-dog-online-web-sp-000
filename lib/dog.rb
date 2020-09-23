@@ -8,7 +8,7 @@ def name
   @the_dog_name
 end
 
-binding.pry
+#binding.pry
 
 def bark
   puts "woof!"
