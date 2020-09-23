@@ -7,7 +7,11 @@ def name
   @the_dog_name
 end
 
+def bark=("Woof!")
+  @dogs_bark = "Woof!"
+end
+
 def bark
-  puts "Woof!"
+  @dogs_bark
 end
 end
