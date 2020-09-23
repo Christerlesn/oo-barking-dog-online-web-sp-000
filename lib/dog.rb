@@ -10,16 +10,7 @@ end
 
 binding.pry
 
-def dog_sound
+def bark
   puts "woof!"
 end
-
-def bark=(dog_sound)
-  @dogs_bark = dog_sound
-end
-
-def bark
-  @dogs_bark
-end
-
 end
